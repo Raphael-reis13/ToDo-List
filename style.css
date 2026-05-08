@@ -1,0 +1,49 @@
+html {
+  background-color: whitesmoke;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 100vh;
+}
+
+/* .body {
+  display: flex;
+  margin: 10px;
+  box-sizing: border-box;
+} */
+
+
+
+.main {
+  display: flex;
+  background-color: whitesmoke;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  align-items: normal;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flexbox;
+}
+
+.insertBar {
+  text-align: center;
+}
+
+.items {
+  background-color: aquamarine;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 200px;
+  box-sizing: border-box;
+  
+}
