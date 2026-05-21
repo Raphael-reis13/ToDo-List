@@ -10,6 +10,8 @@ body {
   align-items: center;
   background-color: rgb(12, 231, 220);
   height: 100vh;
+  /* overflow: hidden; */
+  box-sizing: border-box;
 }
 
 h1 {
@@ -75,13 +77,16 @@ h1 {
 }
 
 .itemsIndiv {
-  
+  display: block;
+  gap: 10px;
 }
 
 .items {
   background-color: aquamarine;
   border-radius: 4px;
-  width: 90%;
+  margin-bottom: 10px;
   box-sizing: border-box;
+  height: 30px;
+  padding: 5px;
   
 }

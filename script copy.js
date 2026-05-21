@@ -15,20 +15,8 @@ btn.addEventListener('click', function(event) {
     } else {
         let containerEl = document.querySelector('.itemsIndiv');
         let newDivEl = document.createElement('div');
-
-        let newSpan = document.createElement('span');
-        let newButton = document.createElement('button');
-
-        newSpan.innerHTML = value;
-        newButton.innerHTML = 'Del';
-
         newDivEl.classList.add('items');
-        newSpan.classList.add('spanItems');
-        newButton.classList.add('delButton');
-
-        newDivEl.appendChild(newSpan);
-        newDivEl.appendChild(newButton);
-
+        newDivEl.innerHTML = value;
         containerEl.appendChild(newDivEl);
     }
 
@@ -38,12 +26,25 @@ btn.addEventListener('click', function(event) {
 });
 
 
-// let containerEl = document.querySelector('.itemsIndiv');
-// let newDivEl = document.createElement('div');
-// newDivEl.classList.add('items');
-// containerEl.appendChild(newDivEl);
+let containerEl = document.querySelector('.itemsIndiv');
+let newDivEl = document.createElement('div');
 
-// newDivEl.innerHTML = 'testando';
+let newSpan = document.createElement('span');
+let newButton = document.createElement('button');
+
+newSpan.innerHTML = value;
+newButton.innerHTML = 'Del';
+
+newDivEl.classList.add('items');
+newSpan.classList.add('spanItems');
+newButton.classList.add('delButton');
+
+newDivEl.appendChild(newSpan);
+newDivEl.appendChild(newButton);
+
+containerEl.appendChild(newDivEl);
+
+
 
 // <div class="items"> </div>
 
