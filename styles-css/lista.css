@@ -1,0 +1,36 @@
+.listBlock {
+  
+}
+
+.itemsIndiv {
+  display: block;
+  gap: 10px;
+}
+
+.items {
+  background-color: aquamarine;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.spanItems {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 10px 0 0;
+  font-size: 20px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.delButton {
+  height: 30px;
+  width: 50px;
+}

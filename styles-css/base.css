@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(35, 243, 146);
+  width: 100vw;
+  height: 100vh;
+  padding: 5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 231, 220);
+  height: 100%;
+  width: 100%;
+  
+}
+

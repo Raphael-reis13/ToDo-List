@@ -26,6 +26,10 @@ btn.addEventListener('click', function(event) {
         newSpan.classList.add('spanItems');
         newButton.classList.add('delButton');
 
+        newButton.addEventListener('click', function () {
+            newDivEl.remove();
+        });
+
         newDivEl.appendChild(newSpan);
         newDivEl.appendChild(newButton);
 
@@ -37,14 +41,9 @@ btn.addEventListener('click', function(event) {
 
 });
 
+document.addEventListener('keypress', function(event) {
 
-// let containerEl = document.querySelector('.itemsIndiv');
-// let newDivEl = document.createElement('div');
-// newDivEl.classList.add('items');
-// containerEl.appendChild(newDivEl);
-
-// newDivEl.innerHTML = 'testando';
-
-// <div class="items"> </div>
-
-
+    if(event.key === 'Enter') {
+        btn.click();
+    }
+});

@@ -1,0 +1,12 @@
+.titulo {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin: 0;
+}
+
+.icon-logo {
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
