@@ -1,5 +1,4 @@
 .listBlock {
-  
 }
 
 .itemsIndiv {
@@ -28,6 +27,11 @@
   font-size: 20px;
   word-break: break-word;
   overflow-wrap: break-word;
+}
+
+.doneButton {
+  height: 30px;
+  width: 50px;
 }
 
 .delButton {

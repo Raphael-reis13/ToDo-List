@@ -18,12 +18,15 @@ btn.addEventListener('click', function(event) {
 
         let newSpan = document.createElement('span');
         let newButton = document.createElement('button');
+        let doneButton = document.createElement('button');
 
         newSpan.innerHTML = value;
         newButton.innerHTML = 'Del';
+        doneButton.innerHTML = 'Done';
 
         newDivEl.classList.add('items');
         newSpan.classList.add('spanItems');
+        doneButton.classList.add('doneButton');
         newButton.classList.add('delButton');
 
         newButton.addEventListener('click', function () {
@@ -31,6 +34,7 @@ btn.addEventListener('click', function(event) {
         });
 
         newDivEl.appendChild(newSpan);
+        newDivEl.appendChild(doneButton);
         newDivEl.appendChild(newButton);
 
         containerEl.appendChild(newDivEl);
